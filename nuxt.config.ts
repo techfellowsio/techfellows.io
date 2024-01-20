@@ -5,5 +5,5 @@ export default defineNuxtConfig({
   },
 
   devtools: {enabled: true},
-  modules: ['@nuxtjs/tailwindcss']
+  modules: ['@nuxt/image', '@nuxtjs/tailwindcss']
 })
