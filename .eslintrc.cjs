@@ -3,7 +3,7 @@ module.exports = {
         "browser": true,
         "es2021": true
     },
-    "extends": ["standard-with-typescript", "plugin:vue/vue3-essential"],
+    "extends": ["standard-with-typescript", "plugin:vue/vue3-essential", "prettier"],
     "overrides": [{
         "env": {
             "node": true
@@ -11,6 +11,15 @@ module.exports = {
         "files": [".eslintrc.{js,cjs}"],
         "parserOptions": {
             "sourceType": "script"
+        }
+    }, {
+        files: ['*.ts', '*.tsx'], // Your TypeScript files extension
+        // As mentioned in the comments, you should extend TypeScript plugins here,
+        // instead of extending them outside the `overrides`.
+        // If you don't want to extend any rules, you don't need an `extends` attribute.
+        extends: ['plugin:@typescript-eslint/recommended', 'plugin:@typescript-eslint/recommended-requiring-type-checking',],
+        parserOptions: {
+            project: ['./tsconfig.json'], // Specify it only for TypeScript files
         }
     }],
     "parserOptions": {
