@@ -1,3 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "_fonts";
+
+html {
+  @apply scroll-smooth;
+}
+
 body {
-  @apply bg-brand-dark text-brand-text
+  @apply bg-white m-0 mt-24;
+}
+
+.container {
+  @apply px-2 md:px-4 max-w-full lg:max-w-screen-xl
 }

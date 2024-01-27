@@ -7,6 +7,9 @@ export default {
                 sans: ['Readex Pro', 'sans-serif']
             }
         },
+        container: {
+            center: true,
+        },
         colors: {
             brand: {
                 dark: {

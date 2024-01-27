@@ -1,0 +1,35 @@
+@layer base {
+
+  body {
+    @apply text-lg text-brand-text;
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    @apply text-brand-dark font-semibold leading-none mb-[.8em];
+  }
+
+  p {
+    @apply mb-2
+  }
+
+  h1, .h1 {
+    @apply text-6xl
+  }
+
+  h2, .h2 {
+    @apply text-5xl
+  }
+
+  h3, .h3 {
+    @apply text-4xl
+  }
+
+  h4, .h4 {
+    @apply text-3xl
+  }
+
+  h5, .h5 {
+    @apply text-2xl
+  }
+}
