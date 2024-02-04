@@ -1,8 +1,7 @@
 <script setup lang="ts">
 import {onMounted, ref} from 'vue'
-import Logo from "~/components/logo.vue";
-import AppSection from "~/components/sections/AppSection.vue";
-import AppButton from "~/components/elements/AppButton.vue";
+import Logo from "~/components/Logo.vue";
+import AppButton from "~/components/base/BaseButton.vue";
 
 const open = ref(false)
 const routes = reactive([

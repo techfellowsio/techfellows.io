@@ -3,15 +3,21 @@
 @tailwind utilities;
 
 @import "_fonts";
+@import "_spacing";
 
-html {
-  @apply scroll-smooth;
-}
+@layer base {
+  html {
+    @apply scroll-smooth scroll-pt-24;
+  }
 
-body {
-  @apply bg-white m-0 mt-24;
-}
+  body {
+    @apply bg-white m-0 mt-24;
+  }
 
-.container {
-  @apply px-2 md:px-4 max-w-full lg:max-w-screen-xl
+  .bg-debug {
+    @apply bg-blue-500 bg-opacity-10;
+    * {
+      @apply bg-blue-500 bg-opacity-10
+    }
+  }
 }

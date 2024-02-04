@@ -1,6 +1,6 @@
 <template>
   <router-link :to="to">
-    <button :class="buttonClasses" class="text-sm px-6 py-3 lg:px-8 lg:py-4 transition-all">
+    <button :class="buttonClasses" class="text-sm px-6 py-3 lg:px-8 lg:py-4 transition-all hover:drop-shadow-sm">
       <slot></slot>
     </button>
   </router-link>
@@ -30,7 +30,7 @@ export default defineComponent({
       let buttonClasses = [];
       switch (props.variant) {
         case 'primary':
-          buttonClasses.push('bg-brand-blue text-white text-white rounded-full')
+          buttonClasses.push('bg-brand-blue text-white text-white rounded-full hover:bg-brand-blue-600')
           break
         case 'secondary':
           buttonClasses.push('bg-gray-500 text-white py-2 px-4 rounded')

@@ -1,4 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+// eslint-disable-next-line @typescript-eslint/no-unsafe-call
 export default defineNuxtConfig({
     devtools: {enabled: true},
     nitro: {
@@ -29,5 +30,5 @@ export default defineNuxtConfig({
     css: [
         '~/assets/app.scss'
     ],
-    modules: ['@nuxt/image', '@nuxtjs/tailwindcss']
+    modules: ['@nuxt/image', '@nuxtjs/tailwindcss', '@pinia/nuxt']
 })

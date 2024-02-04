@@ -1,35 +1,43 @@
 @layer base {
 
+  html {
+    @apply text-[10px] md:text-[14px] lg:text-[16px];
+  }
+
   body {
-    @apply text-lg text-brand-text;
+    @apply text-lg text-brand-text ;
   }
 
   h1, h2, h3, h4, h5, h6,
   .h1, .h2, .h3, .h4, .h5, .h6 {
-    @apply text-brand-dark font-semibold leading-none mb-[.8em];
+    @apply text-brand-dark font-semibold mb-[.8em] text-balance;
   }
 
   p {
-    @apply mb-2
+    @apply mb-2 text-pretty leading-normal;
+  }
+
+  p.lead{
+    @apply text-lg;
   }
 
   h1, .h1 {
-    @apply text-6xl
+    @apply text-6xl leading-tight
   }
 
   h2, .h2 {
-    @apply text-5xl
+    @apply text-5xl leading-tight
   }
 
   h3, .h3 {
-    @apply text-4xl
+    @apply text-4xl leading-tight
   }
 
   h4, .h4 {
-    @apply text-3xl
+    @apply text-3xl leading-tight
   }
 
   h5, .h5 {
-    @apply text-2xl
+    @apply text-2xl leading-tight
   }
 }

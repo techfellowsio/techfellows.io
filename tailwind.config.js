@@ -72,6 +72,18 @@ export default {
                 sans: ['Readex Pro', 'sans-serif']
             }
         },
+        borderRadius: {
+            'none': '0',
+            'sm': '0.125rem',
+            DEFAULT: '0.25rem',
+            'md': '0.375rem',
+            'lg': '0.5rem',
+            'full': '9999px',
+            'large': '12px',
+            'app': '1.875rem',
+            'app-section': '4rem',
+            'app-sm': '1rem'
+        },
         container: {
             center: true,
         },
