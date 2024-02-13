@@ -1,0 +1,13 @@
+@layer components {
+  .badge {
+    @apply text-base px-6 inline-flex items-center h-14 transition-all rounded-full text-center;
+
+    &-light, .section-gray & {
+      @apply bg-white text-brand-dark;
+    }
+
+    &-dark, .section-dark & {
+      @apply bg-brand-gray-700 text-white;
+    }
+  }
+}

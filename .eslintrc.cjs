@@ -21,7 +21,7 @@ module.exports = {
     }],
     parser: '@typescript-eslint/parser', // Specifies ESLint parser
     parserOptions: {
-        project: './server/tsconfig.json', // Specify it here
+        // project: './server/tsconfig.json', // Specify it here
         sourceType: 'module', // Allows for the use of imports
     },
     plugins: ["vue"],

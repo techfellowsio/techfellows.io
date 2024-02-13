@@ -1,9 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@import "_fonts";
-@import "_spacing";
+@import "badge";
+@import "buttons";
+@import "fonts";
+@import "panel";
+@import "section";
+@import "spacing";
 
 @layer base {
   html {
@@ -11,7 +11,7 @@
   }
 
   body {
-    @apply bg-white m-0 mt-24;
+    @apply bg-white m-0 mt-24 font-light;
   }
 
   .bg-debug {

@@ -1,5 +1,4 @@
 <template>
-  <div class="bg-green-500">
     <div class="md:grid gap-app grid-cols-2">
       <div>
         <BaseBadge v-bind="badge" v-if="badge"/>
@@ -11,7 +10,6 @@
         </slot>
       </div>
     </div>
-  </div>
 </template>
 
 <script setup lang="ts">

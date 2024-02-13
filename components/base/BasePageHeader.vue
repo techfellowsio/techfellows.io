@@ -89,7 +89,7 @@ function observeElementPosition() {
             </div>
           </Transition>
           <div class="flex-grow flex items-center justify-end relative">
-            <app-button to="sdsadasd">Let's Join</app-button>
+            <NuxtLink to="/" class="button-primary button">Let's Join</NuxtLink>
             <button @click="open = !open"
                     class="inline-flex items-center justify-center p-2 rounded-md text-white lg:hidden">
               <span class="sr-only">Open main menu</span>

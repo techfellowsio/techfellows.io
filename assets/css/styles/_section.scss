@@ -1,0 +1,25 @@
+@layer components {
+  .section {
+    @apply rounded-t-app lg:rounded-t-app-section pt-16 pb-24 -mt-8 xl:pt-32 xl:pb-48 xl:-mt-16 bg-white;
+
+    &-dark {
+      @apply bg-brand-dark;
+      h2 {
+        @apply text-white
+      }
+    }
+
+    &-blue {
+      @apply bg-brand-blue text-white;
+    }
+
+    &-gray {
+      @apply bg-brand-gray;
+
+    }
+
+    &-white {
+      @apply bg-white;
+    }
+  }
+}

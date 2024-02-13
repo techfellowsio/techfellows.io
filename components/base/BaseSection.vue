@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-t-app-section py-32 pb-48 -mt-16 relative " :class="elementClasses">
+  <div class="section">
     <div class="scrollSpyHook bg-transparent text-transparent text-white -mt-[4em] absolute" :id="scrollSpyName"
          v-if="scrollSpyName"></div>
     <div class="container grid gap-content">
@@ -8,13 +8,12 @@
           {{ $slots.header.title }}
         </slot>
       </div>
-      <slot name="default" v-bind="$slots.default"></slot>
+      <slot name="default" v-bind="$slots.default">asdsa</slot>
     </div>
   </div>
 </template>
 
 <script lang="ts" setup>
-
 export interface BaseSection {
   scrollSpyName?: string;
   variant?: 'dark' | 'gray' | 'white' | 'blue'
@@ -27,11 +26,11 @@ const props = withDefaults(defineProps<BaseSection>(), {
 const elementClasses = computed(() => {
   switch (props.variant) {
     case 'dark':
-      return 'bg-brand-dark text-white'
+      return 'section-dark'
     case 'blue':
-      return 'bg-brand-blue text-white'
+      return 'section-blur'
     case 'gray':
-      return 'bg-brand-gray'
+      return 'section-gray'
     default:
       return 'bg-white'
   }

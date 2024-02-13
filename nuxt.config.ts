@@ -27,8 +27,15 @@ export default defineNuxtConfig({
             ]
         }
     },
+    postcss: {
+        plugins: {
+            tailwindcss: {},
+            autoprefixer: {},
+            cssnano: {}
+        },
+    },
     css: [
-        '~/assets/app.scss'
+        '~/assets/css/app.scss'
     ],
     modules: ['@nuxt/image', '@nuxtjs/tailwindcss', '@pinia/nuxt']
 })

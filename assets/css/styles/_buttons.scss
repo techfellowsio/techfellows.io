@@ -1,0 +1,21 @@
+@layer base {
+  .button {
+    @apply text-sm min-w-48 px-6 py-3 lg:px-8 lg:py-4 transition-all hover:drop-shadow-sm rounded-full inline-flex justify-center;
+
+    &-primary {
+      @apply bg-brand-blue text-white hover:bg-brand-blue-600;
+    }
+
+    &-secondary {
+      @apply bg-brand-dark text-white hover:bg-brand-dark-800;
+
+      &.button-outline {
+        @apply border-white;
+      }
+    }
+
+    &-outline {
+      @apply bg-opacity-5 hover:bg-opacity-35 border
+    }
+  }
+}
