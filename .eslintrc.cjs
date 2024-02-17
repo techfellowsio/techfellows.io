@@ -3,7 +3,7 @@ module.exports = {
         browser: true,
         es2021: true
     },
-    extends: ["standard-with-typescript", "plugin:vue/vue3-essential", "prettier"],
+    extends: ['@nuxtjs/eslint-config-typescript', "standard-with-typescript", "plugin:vue/vue3-essential", "prettier"],
     overrides: [{
         env: {
             browser: true,
@@ -13,15 +13,15 @@ module.exports = {
             "sourceType": "script"
         }
     }, {
-        files: ['*.ts', '*.tsx'], // Your TypeScript files extension
+        files: ['*.ts', '*.tsx', '*.vue'], // Your TypeScript files extension
         // As mentioned in the comments, you should extend TypeScript plugins here,
         // instead of extending them outside the `overrides`.
         // If you don't want to extend any rules, you don't need an `extends` attribute.
         extends: ['plugin:@typescript-eslint/recommended', 'plugin:@typescript-eslint/recommended-requiring-type-checking',],
     }],
-    parser: '@typescript-eslint/parser', // Specifies ESLint parser
+    // parser: '@typescript-eslint/parser', // Specifies ESLint parser
     parserOptions: {
-        // project: './server/tsconfig.json', // Specify it here
+        parser: "@typescript-eslint/parser",
         sourceType: 'module', // Allows for the use of imports
     },
     plugins: ["vue"],

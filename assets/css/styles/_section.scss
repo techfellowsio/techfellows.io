@@ -1,6 +1,10 @@
 @layer components {
   .section {
-    @apply rounded-t-app lg:rounded-t-app-section pt-16 pb-24 -mt-8 xl:pt-32 xl:pb-48 xl:-mt-16 bg-white;
+    @apply rounded-t-app lg:rounded-t-app-section pt-16 pb-32 -mt-16 xl:pt-32 xl:pb-48 xl:-mt-16 bg-white;
+
+    .scrollSpyHook {
+      @apply bg-transparent text-transparent text-white -mt-[7em] absolute;
+    }
 
     &-dark {
       @apply bg-brand-dark;
