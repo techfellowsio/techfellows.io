@@ -129,7 +129,6 @@ Uniting Minds"
 
 <script setup lang="ts">
 import EventsList from "~/components/EventsList.vue";
-import type { BaseHero } from "~/components/base/BaseHero.vue";
 import heroBanner from "~/data/hero-banner.json";
 
 const partners = usePartnersStore().partners;
