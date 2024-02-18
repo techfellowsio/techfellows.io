@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Quick Menu",
+    "links": [
+      {
+        "name": "Home",
+        "url": "/home"
+      },
+      {
+        "name": "About",
+        "url": "/about"
+      },
+      {
+        "name": "Services",
+        "url": "/services"
+      },
+      {
+        "name": "Portfolio",
+        "url": "/portfolio"
+      }
+    ]
+  },
+  {
+    "name": "Support us",
+    "links": [
+      {
+        "name": "FAQ",
+        "url": "/faq"
+      },
+      {
+        "name": "Support Center",
+        "url": "/support-center"
+      },
+      {
+        "name": "Security",
+        "url": "/security"
+      },
+      {
+        "name": "Contact",
+        "url": "/contact"
+      }
+    ]
+  }
+]

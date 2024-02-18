@@ -2,7 +2,7 @@
   <div class="gap-app grid-cols-2 md:grid">
     <div>
       <BaseBadge v-bind="badge" v-if="badge" />
-      <h2 class="md:mb-0" :class="{ 'mt-4': badge }">{{ title }}</h2>
+      <h2 class="md:mb-0" :class="{ 'mt-8': badge }">{{ title }}</h2>
     </div>
     <div class="grid place-content-end md:pt-20">
       <slot>

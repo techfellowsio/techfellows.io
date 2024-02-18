@@ -52,7 +52,7 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
 import { useEventsStore } from "~/stores/eventsStore";
-import { type Event } from "~/models/Event";
+import type { Event } from "~/stores/eventsStore";
 
 const eventsStore = useEventsStore();
 const eventFilter = ref("all");
@@ -74,6 +74,7 @@ const currentPage = ref(1);
 const loadedEvents = computed(() =>
   displayedEvents.value.slice(0, currentPage.value * itemsPerPage.value),
 );
+
 const loadMore = () => {
   currentPage.value++;
 };
@@ -87,7 +88,7 @@ const eventFilterChange = (newValue: string) => {
 };
 
 onMounted(() => {
-  allEvents.value = [...eventsStore.upcomingEvents, ...eventsStore.pastEvents];
+  allEvents.value = eventsStore.sortedEvents;
   upcomingEvents.value = eventsStore.upcomingEvents;
   pastEvents.value = eventsStore.pastEvents;
 });

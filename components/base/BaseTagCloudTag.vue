@@ -8,7 +8,7 @@
 </template>
 
 <script setup lang="ts">
-import type { TagCloudTag } from "~/types/TagCloudTag";
+import type { TagCloudTag } from "~/stores/manifestoTagsStore";
 
 const props = withDefaults(defineProps<TagCloudTag>(), {
   name: "",

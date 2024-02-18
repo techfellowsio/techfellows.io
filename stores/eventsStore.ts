@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import eventData from "~/data/events";
+import events from "~/data/events.json";
 
 export interface Event {
   id: string;
@@ -17,22 +17,7 @@ export interface Event {
 export const useEventsStore = defineStore({
   id: "eventsStore",
   state: (): { events: Event[] } => ({
-    events: [
-      ...eventData(),
-      // Generate more events
-      ...Array.from({ length: 6 }, (_, i: number) => ({
-        id: (i + 5).toString(),
-        title: `Event ${i + 5}`,
-        description: `Description ${i + 5}`,
-        year: (Math.floor(Math.random() * (2023 - 2020 + 1)) + 2020).toString(),
-        month: (Math.floor(Math.random() * (12 - 1 + 1)) + 1).toString(),
-        day: (Math.floor(Math.random() * (28 - 1 + 1)) + 1).toString(),
-        hour: 12,
-        minute: 0,
-        image: `/events/${i + 5}.png`,
-        url: `https://www.event${i + 2}.com`,
-      })),
-    ],
+    events,
   }),
   actions: {
     addEvent(event: Event): void {
@@ -59,7 +44,7 @@ export const useEventsStore = defineStore({
           b.hour,
           b.minute,
         );
-        return dateA.getTime() - dateB.getTime();
+        return dateB.getTime() - dateA.getTime();
       });
     },
     upcomingEvents(): Event[] {

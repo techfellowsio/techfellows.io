@@ -1,0 +1,10 @@
+[
+  {
+    "type": "Phone",
+    "value": "+12345678910"
+  },
+  {
+    "type": "Email",
+    "value": "company@gmail.com"
+  }
+]

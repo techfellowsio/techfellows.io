@@ -1,0 +1,23 @@
+{
+  "imagePath": "/main-header.png",
+  "videoHolder": {
+    "imagePath": "/video-image.png",
+    "description": "Short recap of our past meet-up"
+  },
+  "techFellowNumbers": {
+    "numbers": [
+      {
+        "number": "10+",
+        "description": "Years Experience"
+      },
+      {
+        "number": "100+",
+        "description": "Speakers"
+      },
+      {
+        "number": "800+",
+        "description": "Happy listeners"
+      }
+    ]
+  }
+}

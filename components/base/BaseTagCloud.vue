@@ -6,7 +6,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import type { TagCloud } from "~/types/TagCloud";
+import type { TagCloud } from "~/stores/manifestoTagsStore";
 import BaseTagCloudDecoration from "~/components/base/BaseTagCloudDecoration.vue";
 import BaseTagCloudTag from "~/components/base/BaseTagCloudTag.vue";
 

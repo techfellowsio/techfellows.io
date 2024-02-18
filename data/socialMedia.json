@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Facebook",
+    "url": "https://www.facebook.com/yourProfile",
+    "svg": "/icons/fb.svg"
+  },
+  {
+    "name": "Twitter",
+    "url": "https://www.twitter.com/yourProfile",
+    "svg": "/icons/twitter.svg"
+  },
+  {
+    "name": "Instagram",
+    "url": "https://www.instagram.com/yourProfile",
+    "svg": "/icons/instagram.svg"
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/yourProfile",
+    "svg": "/icons/linkedin.svg"
+  }
+]

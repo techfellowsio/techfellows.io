@@ -1,6 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 export default defineNuxtConfig({
+  // vue: {
+  //   compilerOptions: {
+  //     isCustomElement: (tag) =>
+  //       ["swiper-slide", "swiper-container"].includes(tag),
+  //   },
+  // },
   devtools: { enabled: true },
   nitro: {
     preset: "cloudflare-pages",

@@ -1,18 +1,18 @@
 import { defineStore, type StoreDefinition } from "pinia";
-import type { TagCloudTag } from "~/types/TagCloudTag";
+import tags from "~/data/manifesto-tags.json";
 
+export interface TagCloudTag {
+  name: string | undefined;
+}
+
+export interface TagCloud {
+  tags: TagCloudTag[];
+}
 export const useManifestoTagsStore: StoreDefinition = defineStore(
   "manifestoTagsStore",
   {
     state: (): { tags: TagCloudTag[] } => ({
-      tags: [
-        { name: "Having a Safe Place" },
-        { name: "Helping each other" },
-        { name: "And more" },
-        { name: "Keeping things confidential" },
-        { name: "Role" },
-        { name: "Role" },
-      ],
+      tags,
     }),
   },
 );

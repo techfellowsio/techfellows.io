@@ -86,7 +86,7 @@ Uniting Minds"
           <div>
             <BaseBadge variant="gray" title="Our Vision" />
           </div>
-          <h2 class="mb-0 uppercase">Techfellows manifesto</h2>
+          <h2 class="mb-0 mt-8 uppercase">Techfellows manifesto</h2>
           <p>
             We aspire to be one of the biggest communities of top-class tech
             builders & leaders. You can count on us for advocating for
@@ -100,22 +100,20 @@ Uniting Minds"
             </NuxtLink>
           </div>
         </div>
-        <BaseTagCloud :tags="tags" />
+        <BaseTagCloud :tags="tags" class="mt-8" />
       </div>
     </div>
   </BaseSection>
 
   <BaseSection class="section-blue">
     <div class="flex flex-wrap items-center justify-around gap-8">
-      <template v-for="partner in partners" :key="partner.id">
-        <div class="fill-white text-white">
-          <nuxt-img
-            class="max-w-48 shrink grow-0 fill-white text-white"
-            :src="partner.logo"
-            :alt="`${partner.name} logo`"
-          ></nuxt-img>
-        </div>
-      </template>
+      <div class="max-w-56 grow" v-for="partner in partners" :key="partner.id">
+        <nuxt-img
+          :src="partner.logo"
+          :alt="`${partner.name} logo`"
+          class="h-auto w-full"
+        ></nuxt-img>
+      </div>
     </div>
   </BaseSection>
   <BaseSection class="section-gray">
@@ -125,37 +123,15 @@ Uniting Minds"
         title="Customer is Our Priority"
       />
     </template>
+    <SwiperSlider />
   </BaseSection>
 </template>
 
 <script setup lang="ts">
 import EventsList from "~/components/EventsList.vue";
 import type { BaseHero } from "~/components/base/BaseHero.vue";
+import heroBanner from "~/data/hero-banner.json";
 
 const partners = usePartnersStore().partners;
 const tags = useManifestoTagsStore().tags;
-
-const heroBanner: BaseHero = {
-  imagePath: "/main-header.png",
-  videoHolder: {
-    imagePath: "/video-image.png",
-    description: "Short recap of our past meet-up",
-  },
-  techFellowNumbers: {
-    numbers: [
-      {
-        number: "10+",
-        description: "Years Experience",
-      },
-      {
-        number: "100+",
-        description: "Speakers",
-      },
-      {
-        number: "800+",
-        description: "Happy listeners",
-      },
-    ],
-  },
-};
 </script>
