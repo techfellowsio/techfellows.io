@@ -1,6 +1,6 @@
 <template>
   <BasePageHeader />
-  <NuxtPage />
+  <NuxtPage id="main-content" />
   <BasePageFooter />
   <DevOnly>
     <div

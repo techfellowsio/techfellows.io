@@ -5,6 +5,7 @@ export interface SocialMediaProfile {
   name: string;
   url: string;
   svg: string;
+  enabled: boolean;
 }
 
 export const useSocialMediaStore = defineStore({
@@ -20,5 +21,10 @@ export const useSocialMediaStore = defineStore({
             profile.name.toLowerCase() === name.toLowerCase(),
         );
       },
+    getAllEnabled: (state: { profiles: SocialMediaProfile[] }) => {
+      return state.profiles.filter(
+        (profile: SocialMediaProfile): boolean => profile.enabled,
+      );
+    },
   },
 });

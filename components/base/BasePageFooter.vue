@@ -10,7 +10,7 @@
         </p>
         <div class="flex items-center justify-start gap-8">
           <nuxt-link
-            v-for="profile in socialMediaProfiles.profiles"
+            v-for="profile in socialMediaProfiles.getAllEnabled"
             :key="profile.name"
             :to="profile.url"
             :title="profile.name"
@@ -22,16 +22,16 @@
           </nuxt-link>
         </div>
       </div>
-      <div class="" v-for="menu in footerMenus.menus" :key="menu.name">
-        <p class="font-bold text-brand-dark">{{ menu.name }}</p>
-        <ul class="space-y-4">
-          <li v-for="link in menu.links" :key="link.url">
-            <nuxt-link :to="link.url" :title="link.name"
-              >{{ link.name }}
-            </nuxt-link>
-          </li>
-        </ul>
-      </div>
+      <!--      <div class="" v-for="menu in footerMenus.menus" :key="menu.name">-->
+      <!--        <p class="font-bold text-brand-dark">{{ menu.name }}</p>-->
+      <!--        <ul class="space-y-4">-->
+      <!--          <li v-for="link in menu.links" :key="link.url">-->
+      <!--            <nuxt-link :to="link.url" :title="link.name"-->
+      <!--              >{{ link.name }}-->
+      <!--            </nuxt-link>-->
+      <!--          </li>-->
+      <!--        </ul>-->
+      <!--      </div>-->
       <div v-if="phone || email">
         <p class="font-bold text-brand-dark">Contacts</p>
         <ul class="space-y-4">
