@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Home",
+    "to": "#Home",
+    "active": false
+  },
+  {
+    "name": "About",
+    "to": "#About",
+    "active": false
+  },
+  {
+    "name": "Community",
+    "to": "#Community",
+    "active": false
+  },
+  {
+    "name": "Our Vision",
+    "to": "#OurVision",
+    "active": false
+  }
+]
