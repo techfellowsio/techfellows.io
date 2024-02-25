@@ -6,7 +6,9 @@
       <div class="container relative">
         <div class="flex flex-wrap items-center justify-between">
           <div class="flex flex-grow items-center justify-between lg:block">
-            <logo></logo>
+            <nuxt-link :to="'/#Home'">
+              <logo></logo>
+            </nuxt-link>
           </div>
 
           <div
@@ -76,35 +78,10 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
 import Logo from "~/components/Logo.vue";
-import AppButton from "~/components/base/BaseButton.vue";
+import routesJson from "~/data/main-menu.json";
 
 const open = ref(false);
-const routes = reactive([
-  {
-    name: "Home",
-    to: "#Home",
-    active: false,
-  },
-  {
-    name: "About",
-    to: "#About",
-    active: false,
-  },
-  {
-    name: "Community",
-    to: "#Community",
-    active: false,
-  },
-  {
-    name: "Our Vision",
-    to: "#OurVision",
-    active: false,
-  },
-  {
-    name: "Blog",
-    active: false,
-  },
-]);
+const routes = reactive(routesJson);
 
 let elementsToObserve: NodeListOf<Element> = ref([]);
 
