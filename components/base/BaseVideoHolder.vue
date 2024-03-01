@@ -1,5 +1,5 @@
 <template>
-  <div class="relative max-w-[457px]">
+  <a href="/#heroVideoPlayer" class="relative block max-w-[457px]">
     <svg
       width="457"
       height="280"
@@ -70,15 +70,19 @@
         <div>{{ description }}</div>
       </div>
     </div>
-  </div>
+  </a>
 </template>
 
 <script setup lang="ts">
 export interface VideoHolder {
   imagePath: string;
   description: string;
+  videoLink: VideoLink;
 }
-
+export interface VideoLink {
+  type: "youtube";
+  url: string;
+}
 const props = withDefaults(defineProps<VideoHolder>(), {
   imagePath: "/video-image.png",
   description: "Short recap of our past meet-up",
