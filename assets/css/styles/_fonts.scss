@@ -1,7 +1,4 @@
 @layer base {
-  html {
-    @apply text-[10px] md:text-[14px] lg:text-[16px];
-  }
 
   body {
     @apply text-lg text-brand-text ;
@@ -16,7 +13,7 @@
     @apply mb-2 text-pretty leading-normal;
   }
 
-  p.lead{
+  p.lead {
     @apply text-lg;
   }
 
