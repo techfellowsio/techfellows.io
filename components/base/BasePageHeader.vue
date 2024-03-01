@@ -1,10 +1,12 @@
 <template>
   <div>
     <div
-      class="fixed top-0 z-50 flex min-h-16 w-full items-center bg-white bg-opacity-90 py-4 backdrop-blur-sm"
+      class="fixed top-0 z-50 min-h-16 w-full items-center bg-white bg-opacity-90 backdrop-blur-sm"
     >
+      <BaseHeroNotification />
+
       <div class="container relative">
-        <div class="flex flex-wrap items-center justify-between">
+        <div class="flex flex-wrap items-center justify-between py-4">
           <div class="flex flex-grow items-center justify-between lg:block">
             <nuxt-link :to="'/#Home'">
               <logo></logo>
@@ -79,6 +81,7 @@
 import { onMounted, ref } from "vue";
 import Logo from "~/components/Logo.vue";
 import routesJson from "~/data/main-menu.json";
+import BaseHeroNotification from "~/components/base/BaseHeroNotification.vue";
 
 const open = ref(false);
 const routes = reactive(routesJson);
