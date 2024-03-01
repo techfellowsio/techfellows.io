@@ -2,6 +2,10 @@
   .button {
     @apply text-sm min-w-48 px-6 py-3 lg:px-8 lg:py-4 transition-all hover:drop-shadow-sm rounded-full inline-flex justify-center;
 
+    &-sm {
+      @apply text-xs min-w-0 whitespace-nowrap px-4 py-2
+    }
+
     &-primary {
       @apply bg-brand-blue text-white hover:bg-brand-blue-600;
     }
@@ -10,7 +14,7 @@
       @apply bg-brand-dark text-white hover:bg-brand-dark-800;
 
       &.button-outline {
-        @apply border-white;
+        @apply border-brand-dark text-brand-dark;
       }
     }
 

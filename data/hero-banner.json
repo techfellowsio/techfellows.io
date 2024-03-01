@@ -2,7 +2,11 @@
   "imagePath": "/main-header.png",
   "videoHolder": {
     "imagePath": "/video-image.png",
-    "description": "Short recap of our past meet-up"
+    "description": "Short recap of our past meet-up",
+    "videoLink": {
+      "type": "youtube",
+      "url": "https://www.youtube-nocookie.com/embed/NkAe30aEG5c?si=GLyF1eJTvOqrft90"
+    }
   },
   "techFellowNumbers": {
     "numbers": [
