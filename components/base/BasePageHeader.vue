@@ -40,7 +40,11 @@
             </ul>
           </div>
           <div class="relative flex flex-grow items-center justify-end">
-            <NuxtLink to="/" class="button-primary button">Let's Join</NuxtLink>
+            <a
+              href="mailto:info@techfellows.io?subject=🏆 I want to join TechFellows"
+              class="button-primary button"
+              >Let's Join</a
+            >
             <button
               @click="open = !open"
               class="inline-flex items-center justify-center rounded-md p-2 text-white lg:hidden"

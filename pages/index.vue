@@ -13,7 +13,11 @@
         </p>
       </template>
       <template v-slot:buttonArea>
-        <NuxtLink to="/" class="button button-primary">Let's Join</NuxtLink>
+        <a
+          href="mailto:info@techfellows.io?subject=🏆 I want to join TechFellows"
+          class="button button-primary"
+          >Let's Join</a
+        >
       </template>
     </BaseHero>
   </BaseSection>
