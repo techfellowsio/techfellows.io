@@ -44,7 +44,7 @@
           <a
             v-if="notification.url"
             :href="notification.url"
-            :title="'adasdasds'"
+            :title="'Explore more'"
             class="button button-primary button-secondary button-sm shrink-0 px-2"
             @click="isVisible = false"
             >Explore more
