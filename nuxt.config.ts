@@ -47,5 +47,5 @@ export default defineNuxtConfig({
       },
     },
   },
-  modules: ["@nuxt/image", "@nuxtjs/tailwindcss", "@pinia/nuxt"],
+  modules: ["@nuxt/image", "@nuxtjs/tailwindcss", "@pinia/nuxt", "nitro-cloudflare-dev"],
 });
