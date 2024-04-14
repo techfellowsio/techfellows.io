@@ -2,6 +2,7 @@
   <BasePageHeader />
   <NuxtPage id="main-content" />
   <BasePageFooter />
+  <div id="modal"></div>
   <DevOnly>
     <div
       class="fixed bottom-16 right-16 flex aspect-square items-center justify-around rounded-full bg-yellow-400 p-2 text-4xl font-bold leading-none text-orange-600 drop-shadow"
