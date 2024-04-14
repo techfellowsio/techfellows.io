@@ -40,11 +40,7 @@
             </ul>
           </div>
           <div class="relative flex flex-grow items-center justify-end">
-            <a
-              href="mailto:info@techfellows.io?subject=🏆 I want to join TechFellows"
-              class="button-primary button"
-              >Let's Join</a
-            >
+            <ButtonLetsJoin />
             <button
               @click="open = !open"
               class="inline-flex items-center justify-center rounded-md p-2 text-white lg:hidden"
@@ -86,6 +82,7 @@ import { onMounted, ref } from "vue";
 import Logo from "~/components/Logo.vue";
 import routesJson from "~/data/main-menu.json";
 import BaseHeroNotification from "~/components/base/BaseHeroNotification.vue";
+import ButtonLetsJoin from "~/components/ButtonLetsJoin.vue";
 
 const open = ref(false);
 const routes = reactive(routesJson);

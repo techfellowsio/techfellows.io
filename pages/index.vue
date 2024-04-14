@@ -13,11 +13,7 @@
         </p>
       </template>
       <template v-slot:buttonArea>
-        <a
-          href="mailto:info@techfellows.io?subject=🏆 I want to join TechFellows"
-          class="button button-primary"
-          >Let's Join</a
-        >
+        <ButtonLetsJoin />
       </template>
     </BaseHero>
   </BaseSection>
@@ -43,9 +39,9 @@
                 <h3 class="mb-0 text-brand-blue">Techfellow Community</h3>
                 <p>Discover the essence of our community and its purpose.</p>
                 <div class="relative flex items-center">
-                  <NuxtLink to="/" class="button button-primary"
-                    >Learn More About Community
-                  </NuxtLink>
+                  <a v-bind="manifesto.button" class="button button-primary">
+                    {{ manifesto.button.text || manifesto.button.title }}
+                  </a>
                 </div>
               </div>
             </BasePannel>
@@ -99,12 +95,15 @@ Uniting Minds"
             and joint investments.
           </p>
           <div>
-            <NuxtLink to="/" class="button button-primary inline-flex"
-              >Learn More About Community
-            </NuxtLink>
+            <a
+              class="button button-primary inline-flex"
+              v-bind="manifesto.button"
+            >
+              {{ manifesto.button.text || manifesto.button.title }}
+            </a>
           </div>
         </div>
-        <BaseTagCloud :tags="tags" class="mt-8" />
+        <BaseTagCloud :tags="manifesto.tags" class="mt-8" />
       </div>
     </div>
   </BaseSection>
@@ -134,7 +133,8 @@ Uniting Minds"
 <script setup lang="ts">
 import EventsList from "~/components/EventsList.vue";
 import heroBanner from "~/data/hero-banner.json";
+import ButtonLetsJoin from "~/components/ButtonLetsJoin.vue";
 
 const partners = usePartnersStore().partners;
-const tags = useManifestoTagsStore().tags;
+const manifesto = useManifestoTagsStore().manifesto;
 </script>

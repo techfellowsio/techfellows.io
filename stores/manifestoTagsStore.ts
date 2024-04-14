@@ -1,5 +1,5 @@
 import { defineStore, type StoreDefinition } from "pinia";
-import tags from "~/data/manifesto-tags.json";
+import manifesto from "~/data/manifesto-tags.json";
 
 export interface TagCloudTag {
   name: string | undefined;
@@ -8,11 +8,15 @@ export interface TagCloudTag {
 export interface TagCloud {
   tags: TagCloudTag[];
 }
+export interface Manifesto {
+  tags: TagCloud;
+  button: Object;
+}
 export const useManifestoTagsStore: StoreDefinition = defineStore(
   "manifestoTagsStore",
   {
-    state: (): { tags: TagCloudTag[] } => ({
-      tags,
+    state: (): { manifesto: Manifesto[] } => ({
+      manifesto,
     }),
   },
 );
