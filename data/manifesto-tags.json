@@ -1,20 +1,24 @@
-[
-  {
-    "name": "Having a Safe Place"
-  },
-  {
-    "name": "Helping each other"
-  },
-  {
-    "name": "And more"
-  },
-  {
-    "name": "Keeping things confidential"
-  },
-  {
-    "name": "Role"
-  },
-  {
-    "name": "Role"
+{
+  "tags": [
+    {
+      "name": "Having a Safe Place"
+    },
+    {
+      "name": "Helping each other"
+    },
+    {
+      "name": "And more"
+    },
+    {
+      "name": "Keeping things confidential"
+    },
+    {
+      "name": "Role"
+    }
+  ],
+  "button": {
+    "href": "/docs/techfellows-manifesto.pdf",
+    "target": "_blank",
+    "title": "Learn More About Community"
   }
-]
+}

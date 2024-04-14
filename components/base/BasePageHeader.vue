@@ -40,7 +40,7 @@
             </ul>
           </div>
           <div class="relative flex flex-grow items-center justify-end">
-            <NuxtLink to="/" class="button-primary button">Let's Join</NuxtLink>
+            <ButtonLetsJoin />
             <button
               @click="open = !open"
               class="inline-flex items-center justify-center rounded-md p-2 text-white lg:hidden"
@@ -82,6 +82,7 @@ import { onMounted, ref } from "vue";
 import Logo from "~/components/Logo.vue";
 import routesJson from "~/data/main-menu.json";
 import BaseHeroNotification from "~/components/base/BaseHeroNotification.vue";
+import ButtonLetsJoin from "~/components/ButtonLetsJoin.vue";
 
 const open = ref(false);
 const routes = reactive(routesJson);
