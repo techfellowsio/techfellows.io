@@ -1,5 +1,5 @@
 <template>
-  <div class="space-y-16 space-y-8">
+  <div>
     <div class="gap-app flex flex-col md:flex-row">
       <div class="space-y-12 md:w-1/2 md:max-w-[457px]">
         <h1 class="mb-4">
@@ -11,10 +11,10 @@
         </div>
         <BaseVideoHolder
           v-bind="videoHolder"
-          @click="displayVideo = !displayVideo"
+          @click="displayVideo = true"
           class="cursor-pointer transition-all hover:drop-shadow-xl"
         ></BaseVideoHolder>
-        <TechFellowsInNumbers class="md:hidden" />
+        <TechFellowsInNumbers class="md:hidden" v-bind="techFellowNumbers" />
       </div>
       <div class="hidden flex-grow flex-col gap-16 md:flex">
         <div class="aspect-[63/50] overflow-hidden rounded-app">
@@ -28,7 +28,13 @@
         </div>
       </div>
     </div>
-    <BaseHeroVideoPlayer v-if="displayVideo" v-bind="videoHolder.videoLink" />
+    <Teleport to="#modal">
+      <BaseHeroVideoPlayer
+        @modal-hide="displayVideo = false"
+        :is-visible="displayVideo"
+        v-bind="videoHolder.videoLink"
+      />
+    </Teleport>
   </div>
 </template>
 
@@ -42,6 +48,7 @@ export interface BaseHero {
   videoHolder: VideoHolder;
   techFellowNumbers: TechFellowsNumbers;
 }
+
 const displayVideo = ref(false);
 
 const props = withDefaults(defineProps<BaseHero>(), {

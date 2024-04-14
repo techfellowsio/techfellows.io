@@ -32,6 +32,8 @@
   </div>
 </template>
 <script setup lang="ts">
+import heroBanner from "~/data/hero-banner.json";
+
 interface TechFellowsNumber {
   number: String;
   description: String;
@@ -43,19 +45,6 @@ export interface TechFellowsNumbers {
 
 // Define a default prop
 const props = withDefaults(defineProps<TechFellowsNumbers>(), {
-  numbers: () => [
-    {
-      number: "123",
-      description: "description 123",
-    },
-    {
-      number: "456",
-      description: "description 456",
-    },
-    {
-      number: "789",
-      description: "description 789",
-    },
-  ],
+  numbers: () => heroBanner.techFellowNumbers,
 });
 </script>

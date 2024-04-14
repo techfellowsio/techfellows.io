@@ -9,13 +9,13 @@ export interface TagCloud {
   tags: TagCloudTag[];
 }
 export interface Manifesto {
-  tags: TagCloud;
+  tags: TagCloudTag[];
   button: Object;
 }
 export const useManifestoTagsStore: StoreDefinition = defineStore(
   "manifestoTagsStore",
   {
-    state: (): { manifesto: Manifesto[] } => ({
+    state: (): { manifesto: Manifesto } => ({
       manifesto,
     }),
   },
