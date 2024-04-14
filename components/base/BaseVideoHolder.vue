@@ -1,5 +1,5 @@
 <template>
-  <a href="/#heroVideoPlayer" class="relative block max-w-[457px]">
+  <a href="#" class="relative block max-w-[457px]" @click.prevent>
     <svg
       width="457"
       height="280"
