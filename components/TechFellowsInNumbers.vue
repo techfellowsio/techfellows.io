@@ -56,10 +56,6 @@ const props = withDefaults(defineProps<TechFellowsNumbers>(), {
       number: "789",
       description: "description 789",
     },
-    {
-      number: "789",
-      description: "description 789",
-    },
   ],
 });
 </script>
