@@ -4,10 +4,12 @@
     :title="title + ' ' + description"
     class="group relative overflow-hidden rounded-app-sm"
   >
-    <nuxt-picture
+    <nuxt-img
       :src="image"
       :alt="title"
-      class="h-[68.462%] w-full *:w-full"
+      class="w-full"
+      :height="445"
+      :width="650"
     />
     <div
       class="absolute top-0 flex h-full w-full flex-col justify-between bg-brand-dark bg-opacity-30 p-5 transition-all"
