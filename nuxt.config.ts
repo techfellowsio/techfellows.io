@@ -1,12 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import seo from "./data/seo.json";
 
 export default defineNuxtConfig({
-  // vue: {
-  //   compilerOptions: {
-  //     isCustomElement: (tag) =>
-  //       ["swiper-slide", "swiper-container"].includes(tag),
-  //   },
-  // },
+  site: seo,
   devtools: { enabled: true },
   nitro: {
     preset: "cloudflare-pages",
@@ -47,5 +43,11 @@ export default defineNuxtConfig({
       },
     },
   },
-  modules: ["@nuxt/image", "@nuxtjs/tailwindcss", "@pinia/nuxt", "nitro-cloudflare-dev"],
+  modules: [
+    "@nuxt/image",
+    "@nuxtjs/tailwindcss",
+    "@pinia/nuxt",
+    "nitro-cloudflare-dev",
+    "@nuxtjs/seo",
+  ],
 });
