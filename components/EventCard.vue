@@ -6,6 +6,7 @@
     target="_blank"
   >
     <nuxt-img
+      provider="cloudflare"
       :src="image"
       :alt="title"
       class="w-full object-cover object-center"

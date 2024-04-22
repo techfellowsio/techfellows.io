@@ -43,6 +43,11 @@ export default defineNuxtConfig({
       },
     },
   },
+  image: {
+    cloudflare: {
+      baseURL: "https://techfellows.io/",
+    },
+  },
   modules: [
     "@nuxt/image",
     "@nuxtjs/tailwindcss",
