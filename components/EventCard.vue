@@ -2,14 +2,14 @@
   <NuxtLink
     :to="url"
     :title="title + ' ' + description"
-    class="group relative overflow-hidden rounded-app-sm"
+    class="group relative overflow-hidden rounded-app-sm hover:z-10 hover:overflow-visible"
     target="_blank"
   >
     <nuxt-img
       provider="cloudflare"
       :src="image"
       :alt="title"
-      class="w-full object-cover object-center"
+      class="w-full rounded-app-sm object-contain object-center"
     />
     <div
       class="absolute top-0 flex h-full w-full flex-col justify-between p-5 transition-all hover:bg-brand-dark hover:bg-opacity-30"
