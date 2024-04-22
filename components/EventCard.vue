@@ -8,12 +8,10 @@
     <nuxt-img
       :src="image"
       :alt="title"
-      class="w-full"
-      :height="445"
-      :width="650"
+      class="w-full object-cover object-center"
     />
     <div
-      class="absolute top-0 flex h-full w-full flex-col justify-between bg-brand-dark bg-opacity-30 p-5 transition-all"
+      class="absolute top-0 flex h-full w-full flex-col justify-between p-5 transition-all hover:bg-brand-dark hover:bg-opacity-30"
     >
       <div
         class="-translate-y-48 transform transition-all group-hover:translate-y-0"
