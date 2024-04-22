@@ -3,6 +3,7 @@
     :to="url"
     :title="title + ' ' + description"
     class="group relative overflow-hidden rounded-app-sm"
+    target="_blank"
   >
     <nuxt-img
       :src="image"
