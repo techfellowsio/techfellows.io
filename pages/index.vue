@@ -5,15 +5,6 @@
     scroll-spy-class="-mt[1rem]"
   >
     <BaseHero v-bind="heroBanner">
-      <!--
-      <template v-slot:headerText> ElevateTech</template>
-      <template v-slot:headerLeadText>
-        <p class="lead">
-          Empowering Leaders, Igniting Growth Through Knowledge Sharing
-        </p>
-      </template>
-      -->
-
       <template v-slot:headerText
         >Empowering World Change Through Shared Knowledge</template
       >
@@ -25,12 +16,6 @@
         </p>
       </template>
 
-      <!--
-      <template v-slot:headerText> Community of Tech Leaders</template>
-      <template v-slot:headerLeadText>
-        <p class="lead">Empowering Growth Through Collective Knowledge</p>
-      </template>
-      -->
       <template v-slot:buttonArea>
         <ButtonLetsJoin />
       </template>
@@ -44,10 +29,10 @@
         title="Exploring the Identity of Techfellows"
       >
         We are a community of tech leaders & builders based across Slovakia,
-        Czechia and Poland. We exist to connect and knowledge share on topics,
-        such as leadership, tech recruiting, technical challenges, and joint
-        investments. Our community is made up of Tech Founders, CTOs,
-        Engineering Directors, Senior Leaders and Principal Engineers.
+        Czechia and Poland. We exist to connect and knowledge share on topics
+        like taking care of tech talent, scaling tech teams and other. Our
+        community is made up of Tech Founders, CTOs, Engineering Directors,
+        Senior Leaders and Principal Engineers.
       </BaseSectionHeader>
     </template>
     <div class="relative">
@@ -56,7 +41,7 @@
           <li>
             <BasePannel variant="transparent" class="z-20 mb-0 py-0">
               <div class="gap-content grid">
-                <h3 class="mb-0 text-brand-blue">Techfellow Community</h3>
+                <h3 class="mb-0 text-brand-blue">TechFellows Community</h3>
                 <p>Discover the essence of our community and its purpose.</p>
                 <div class="relative flex items-center">
                   <a v-bind="manifesto.button" class="button button-primary">
