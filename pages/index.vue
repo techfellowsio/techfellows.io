@@ -69,19 +69,14 @@
         title="TechFellows Community"
       >
         <p>
-          TechFellows is a hub for tech leaders keen on sharing knowledge,
-          learning together, and shaping technology's future. <br />
-        </p>
-        <p>
-          Join our exclusive Slack workspace for dynamic discussions and
-          networking with tech enthusiasts. It's an ideal place for feedback and
-          exploring ideas.
-
+          Join our private Slack space to connect with other leaders and build
+          connections. This is an ideal place for feedback and exploring ideas.
           <br />
         </p>
         <p>
-          We host internal events for members to engage in deep discussions and
-          network casually through online forums or in-person socials.
+          Share your knowledge at one of our tech meetups, engage in deep
+          discussions during one of our tech circles and have fun with fellow
+          leaders at our regular get togethers!
           <br />
         </p>
         <p>
