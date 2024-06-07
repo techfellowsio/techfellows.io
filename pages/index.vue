@@ -15,8 +15,7 @@
       -->
 
       <template v-slot:headerText
-        >Tech Leaders Alliance: Empowering World Change Through Shared
-        Knowledge</template
+        >Empowering World Change Through Shared Knowledge</template
       >
       <template v-slot:headerLeadText>
         <p class="lead">
