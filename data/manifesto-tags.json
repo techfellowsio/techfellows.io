@@ -1,24 +1,24 @@
 {
   "tags": [
     {
-      "name": "Having a Safe Place"
+      "name": "Knowledge sharing"
     },
     {
-      "name": "Helping each other"
+      "name": "Innovation"
     },
     {
-      "name": "And more"
+      "name": "Transparency"
     },
     {
-      "name": "Keeping things confidential"
+      "name": "Confidentiality"
     },
     {
-      "name": "Role"
+      "name": "Technical Excelence"
     }
   ],
   "button": {
     "href": "/docs/techfellows-manifesto.pdf",
     "target": "_blank",
-    "title": "Read our manifesto"
+    "title": "Open our manifesto"
   }
 }

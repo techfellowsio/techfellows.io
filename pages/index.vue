@@ -125,13 +125,17 @@
           <div>
             <BaseBadge variant="gray" title="Our Vision" />
           </div>
+          <!--
           <h2 class="mb-0 mt-8 uppercase">Techfellows manifesto</h2>
+          -->
           <p>
-            We aspire to be one of the biggest communities of top-class tech
-            builders & leaders. You can count on us for advocating for
-            geeks/nerds, and for eye-opening discourse on topics such as
-            leadership, recruiting, technical challenges, technology selection,
-            and joint investments.
+            We don't want to be the biggest community, we don't want to be known
+            as the community for everyone. <br />
+            We are a high-density talent group of world-class technology
+            builders and leaders in Central Europe. Topics like leadership, team
+            management, product building, hiring/firing, and technical
+            challenges are our daily bread. Does this resonate with you? if so,
+            you could be an ideal member of our community, join us.
           </p>
           <div>
             <a
