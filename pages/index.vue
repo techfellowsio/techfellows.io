@@ -28,11 +28,10 @@
         :badge="{ title: 'What connects us?' }"
         title="Exploring the Identity of Techfellows"
       >
-        We are a community of tech leaders & builders based across Slovakia,
-        Czechia and Poland. We exist to connect and knowledge share on topics
-        like taking care of tech talent, scaling tech teams and other. Our
-        community is made up of Tech Founders, CTOs, Engineering Directors,
-        Senior Leaders and Principal Engineers.
+        We are a community of Tech Founders, CTOs, Engineering Directors based
+        across Slovakia, Czechia and Poland. We exist to connect and knowledge
+        share on topics like taking care of tech talent, scaling tech teams and
+        tools.
       </BaseSectionHeader>
     </template>
     <div class="relative">
