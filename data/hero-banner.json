@@ -1,7 +1,7 @@
 {
-  "imagePath": "/main-header.png",
+  "imagePath": "/main-header.jpg",
   "videoHolder": {
-    "imagePath": "/video-image.png",
+    "imagePath": "/video-image.jpg",
     "description": "Short recap of our past meet-up",
     "videoLink": {
       "type": "youtube",

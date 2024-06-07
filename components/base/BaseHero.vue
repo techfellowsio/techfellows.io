@@ -20,7 +20,7 @@
         <div class="aspect-[63/50] overflow-hidden rounded-app">
           <NuxtPicture
             :src="imagePath"
-            class=":*object-cover *:h-ful *:w-full *:object-center"
+            class=":*object-cover *:w-full *:object-center"
           />
         </div>
         <div>
