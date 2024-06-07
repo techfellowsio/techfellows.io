@@ -108,9 +108,6 @@
           <div>
             <BaseBadge variant="gray" title="Our Vision" />
           </div>
-          <!--
-          <h2 class="mb-0 mt-8 uppercase">Techfellows manifesto</h2>
-          -->
           <p>
             We don't want to be the biggest community, we don't want to be known
             as the community for everyone. <br />
@@ -120,6 +117,7 @@
             challenges are our daily bread. Does this resonate with you? if so,
             you could be an ideal member of our community, join us.
           </p>
+
           <div>
             <a
               class="button button-primary inline-flex"
@@ -128,6 +126,10 @@
               {{ manifesto.button.text || manifesto.button.title }}
             </a>
           </div>
+        </div>
+        <br />
+        <div>
+          <BaseBadge variant="gray" title="Our Values" />
         </div>
         <BaseTagCloud :tags="manifesto.tags" class="mt-8" />
       </div>

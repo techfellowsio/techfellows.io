@@ -1,9 +1,10 @@
 [
   {
-    "title": "Tech Enthusiasts",
-    "description": "We believe that 'techies' are the driving force in our digitized economy and as such we should celebrate being enthusiastic about all things technical.",
-    "icon": "/icons/hands.svg"
+    "title": "Leaders",
+    "description": "We strive to have a positive impact on the local tech community. We love to share our knowledge and help others grow. We do so through regular meetups, welcoming mentoring opportunities and supporting junior staff on their personal growth journeys.",
+    "icon": "/icons/trophy.svg"
   },
+
   {
     "title": "Lifelong Learners",
     "description": "We are always hungry to learn more and be a better version of ourselves. That is way we regularly meet to deep dive into different topics and learn from each other's perspectives & experiences. ",
@@ -15,8 +16,8 @@
     "icon": "/icons/tool.svg"
   },
   {
-    "title": "Leaders",
-    "description": "We strive to have a positive impact on the local tech community. We love to share our knowledge and help others grow. We do so through regular meetups, welcoming mentoring opportunities and supporting junior staff on their personal growth journeys.",
-    "icon": "/icons/trophy.svg"
+    "title": "Tech Enthusiasts",
+    "description": "We believe that 'techies' are the driving force in our digitized economy and as such we should celebrate being enthusiastic about all things technical.",
+    "icon": "/icons/hands.svg"
   }
 ]
