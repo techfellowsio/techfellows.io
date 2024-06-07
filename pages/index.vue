@@ -85,32 +85,25 @@
         title="TechFellows Community"
       >
         <p>
-          TechFellows is a community hub for tech leaders who are passionate
-          about exchanging knowledge, learning from each other and shape the
-          future of technology. <br />
+          TechFellows is a hub for tech leaders keen on sharing knowledge,
+          learning together, and shaping technology's future. <br />
         </p>
         <p>
-          Exclusive Slack Workspace: Join our private Slack group, a dedicated
-          space for direct communication where you can engage with fellow tech
-          enthusiasts. Whether you're seeking feedback on a project or exploring
-          new ideas, our Slack community is the perfect place to expand your
-          professional network and forge meaningful connections.
+          Join our exclusive Slack workspace for dynamic discussions and
+          networking with tech enthusiasts. It's an ideal place for feedback and
+          exploring ideas.
+
           <br />
         </p>
         <p>
-          Internal Events for our members: We organize internal events, designed
-          to foster camaraderie and facilitate deeper debate. Our members can
-          attend online discussion circles about pressing topics in tech
-          leadership, or attend our onsite gatherings, such as breakfast or
-          evening beer sessions, to network in a relaxed atmosphere.
+          We host internal events for members to engage in deep discussions and
+          network casually through online forums or in-person socials.
           <br />
         </p>
         <p>
-          Public Meetups open to everyone: These events serve as a platform for
-          knowledge sharing, and encouraging broader networking. Whether you're
-          a seasoned professional or just starting, our public meetups are a
-          great opportunity to connect with like-minded individuals and stay at
-          the forefront of the tech industry.
+          Our public meetups are open to all, offering a space for knowledge
+          exchange and networking across the tech community, suitable for
+          experts and newcomers alike.
           <br />
         </p>
       </BaseSectionHeader>
