@@ -19,9 +19,9 @@
       >
       <template v-slot:headerLeadText>
         <p class="lead">
-          Connecting Tech Leaders, VPs, Directors, and CTOs in a dynamic
+          Connecting Tech Leaders, VPs, Directors, and CTOs in a vibrant
           community, fostering growth and driving impactful change through
-          shared knowledge.
+          shared knowledge & experiences.
         </p>
       </template>
 
