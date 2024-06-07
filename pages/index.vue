@@ -99,7 +99,7 @@
     <div class="grid grid-cols-1 gap-16 md:grid-cols-2">
       <div class="overflow-hidden rounded-app bg-brand-gray-300">
         <NuxtImg
-          src="/image-20.png"
+          src="/image-20.jpg"
           class="h-full w-full object-cover"
         ></NuxtImg>
       </div>
