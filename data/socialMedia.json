@@ -1,7 +1,7 @@
 [
   {
     "name": "Facebook",
-    "url": "https://www.facebook.com/yourProfile",
+    "url": "https://www.facebook.com/Techfellows.io",
     "svg": "/icons/fb.svg",
     "enabled": true
   },
@@ -19,8 +19,8 @@
   },
   {
     "name": "LinkedIn",
-    "url": "https://www.linkedin.com/in/yourProfile",
+    "url": "https://www.linkedin.com/company/techfellows/",
     "svg": "/icons/linkedin.svg",
-    "enabled": false
+    "enabled": true
   }
 ]
