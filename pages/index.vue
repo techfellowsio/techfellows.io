@@ -148,10 +148,7 @@
   </BaseSection>
   <BaseSection class="section-gray">
     <template #header>
-      <BaseSectionHeader
-        :badge="{ title: 'Testimonials' }"
-        title="Customer is Our Priority"
-      />
+      <BaseSectionHeader :badge="{ title: 'Testimonials' }" />
     </template>
     <SwiperSlider />
   </BaseSection>
