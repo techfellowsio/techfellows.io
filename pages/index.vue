@@ -14,9 +14,16 @@
       </template>
       -->
 
-      <template v-slot:headerText>Tech Leaders Alliance</template>
+      <template v-slot:headerText
+        >Tech Leaders Alliance: Empowering World Change Through Shared
+        Knowledge</template
+      >
       <template v-slot:headerLeadText>
-        <p class="lead">Empowering World Change Through Shared Knowledge</p>
+        <p class="lead">
+          Connecting Tech Managers, VPs, Directors, and CTOs in a dynamic
+          community, fostering growth and driving impactful change through
+          shared knowledge.
+        </p>
       </template>
 
       <!--

@@ -2,7 +2,7 @@
   <div>
     <div class="gap-app flex flex-col md:flex-row">
       <div class="space-y-12 md:w-1/2 md:max-w-[457px]">
-        <h1 class="mb-4">
+        <h1 class="mb-4 text-4xl">
           <slot name="headerText" />
         </h1>
         <slot name="headerLeadText" />
