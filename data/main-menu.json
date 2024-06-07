@@ -18,5 +18,10 @@
     "name": "Our Vision",
     "to": "#OurVision",
     "active": false
+  },
+  {
+    "name": "Testimonials",
+    "to": "#Testimonials",
+    "active": false
   }
 ]

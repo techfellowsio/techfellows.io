@@ -146,7 +146,7 @@
       </div>
     </div>
   </BaseSection>
-  <BaseSection class="section-gray">
+  <BaseSection class="section-gray" :scroll-spy-name="'Testimonials'">
     <template #header>
       <BaseSectionHeader :badge="{ title: 'Testimonials' }" />
     </template>
