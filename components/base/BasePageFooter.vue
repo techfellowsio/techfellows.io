@@ -6,7 +6,9 @@
       <div class="w-full space-y-8 md:w-auto md:max-w-[43%]">
         <logo></logo>
         <p class="text-balance">
-          A community network for CTOs, Tech Leaders, and Engineering Managers
+          Connecting Tech Leaders, VPs, Directors, and CTOs in a vibrant
+          community, fostering growth and driving impactful change through
+          shared knowledge & experiences.
         </p>
         <div class="flex items-center justify-start gap-8">
           <nuxt-link
@@ -45,7 +47,7 @@
       </div>
     </div>
     <p class="mt-4 border-t border-gray-200 pt-4 text-center text-sm">
-      2023 © Techfellows All Right Reserved
+      2024 © TechFellows All Right Reserved
     </p>
   </BaseSection>
 </template>
