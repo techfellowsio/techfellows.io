@@ -58,5 +58,17 @@
     "minute": 0,
     "image": "/events/techfellows-5-preparing-for-the-era-of-ai-in-software-development.jpeg",
     "url": "https://www.youtube.com/watch?v=B_vfZs42okA"
+  },
+  {
+    "id": "6",
+    "title": "TechFellows Meetup #6: Engineering Screw ups night!",
+    "description": "Get ready for an event that celebrates the messiest, most cringe-worthy blunders in our industry, hosted by the TechFellows, Engineering Leadership community.💙 \n\n ​We've lined up a trio of seasoned, not only, Engineering Leaders who've weathered the tech storm and emerged with stories that will make your code compile with fear. 😱",
+    "year": 2024,
+    "month": 5,
+    "day": 20,
+    "hour": 18,
+    "minute": 0,
+    "image": "/events/techfellows-meetup-6-engineering-screw-ups-night.jpeg",
+    "url": "https://lu.ma/e17nm4w5?tk=V9GGDV"
   }
 ]
