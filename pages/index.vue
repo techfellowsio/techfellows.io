@@ -5,13 +5,26 @@
     scroll-spy-class="-mt[1rem]"
   >
     <BaseHero v-bind="heroBanner">
-      <template v-slot:headerText> Tech Leaders' Growth Community</template>
+      <!--
+      <template v-slot:headerText> ElevateTech</template>
       <template v-slot:headerLeadText>
         <p class="lead">
-          Empowering Tech Managers, VPs, Directors, and CTOs to grow in a safe
-          community of techies and leaders.
+          Empowering Leaders, Igniting Growth Through Knowledge Sharing
         </p>
       </template>
+      -->
+
+      <template v-slot:headerText>Tech Leaders Alliance</template>
+      <template v-slot:headerLeadText>
+        <p class="lead">Empowering World Change Through Shared Knowledge</p>
+      </template>
+
+      <!--
+      <template v-slot:headerText> Community of Tech Leaders</template>
+      <template v-slot:headerLeadText>
+        <p class="lead">Empowering Growth Through Collective Knowledge</p>
+      </template>
+      -->
       <template v-slot:buttonArea>
         <ButtonLetsJoin />
       </template>
@@ -21,13 +34,14 @@
   <BaseSection scroll-spy-name="About" class="section-gray">
     <template #header>
       <BaseSectionHeader
-        :badge="{ title: 'Who are Techfellows' }"
+        :badge="{ title: 'What connects us?' }"
         title="Exploring the Identity of Techfellows"
       >
-        We aspire to be one of the biggest communities of top-class tech
-        builders & leaders. You can count on us for advocating for geeks/nerds,
-        and for eye-opening discourse on topics such as leadership, recruiting,
-        technical challenges, technology selection, and joint investments.
+        We are a community of tech leaders & builders based across Slovakia,
+        Czechia and Poland. We exist to connect and knowledge share on topics,
+        such as leadership, tech recruiting, technical challenges, and joint
+        investments. Our community is made up of Tech Founders, CTOs,
+        Engineering Directors, Senior Leaders and Principal Engineers.
       </BaseSectionHeader>
     </template>
     <div class="relative">
@@ -62,12 +76,37 @@
     <template #header>
       <BaseSectionHeader
         :badge="{ title: 'Our Meetups' }"
-        title="Techfellows Gatherings:
-Uniting Minds"
+        title="TechFellows Community"
       >
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley.
+        <p>
+          TechFellows is a community hub for tech leaders who are passionate
+          about exchanging knowledge, learning from each other and shape the
+          future of technology. <br />
+        </p>
+        <p>
+          Exclusive Slack Workspace: Join our private Slack group, a dedicated
+          space for direct communication where you can engage with fellow tech
+          enthusiasts. Whether you're seeking feedback on a project or exploring
+          new ideas, our Slack community is the perfect place to expand your
+          professional network and forge meaningful connections.
+          <br />
+        </p>
+        <p>
+          Internal Events for our members: We organize internal events, designed
+          to foster camaraderie and facilitate deeper debate. Our members can
+          attend online discussion circles about pressing topics in tech
+          leadership, or attend our onsite gatherings, such as breakfast or
+          evening beer sessions, to network in a relaxed atmosphere.
+          <br />
+        </p>
+        <p>
+          Public Meetups open to everyone: These events serve as a platform for
+          knowledge sharing, and encouraging broader networking. Whether you're
+          a seasoned professional or just starting, our public meetups are a
+          great opportunity to connect with like-minded individuals and stay at
+          the forefront of the tech industry.
+          <br />
+        </p>
       </BaseSectionHeader>
     </template>
     <EventsList></EventsList>
