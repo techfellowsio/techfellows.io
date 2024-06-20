@@ -1,10 +1,10 @@
 [
   {
-    "name": "John Doe",
-    "jobTitle": "Software Engineer",
-    "photo": "/testimonials/persona1.png",
-    "headline": "Unparalleled Efficiency!",
-    "testimonial": "Since we started using this software, our productivity has shot through the roof. It's an absolute game-changer for our team."
+    "name": "Jakub Chudik",
+    "jobTitle": "Co-Founder at Assetario",
+    "photo": "https://ca.slack-edge.com/T03RR61SUUV-U047640BU2W-28cc116c0345-512",
+    "headline": "Great for networking, excellent expertise.",
+    "testimonial": "I joined Techfellows as a young founder, looking for community where I could find understanding and advise for the technical and leadership challenges I was facing. Techfellows provided me with a platform to brainstorm with more experienced engineering leaders and create deep connections. This has been invaluable!"
   },
   {
     "name": "Jane Smith",
@@ -12,38 +12,5 @@
     "photo": "/testimonials/persona1.png",
     "headline": "Unleashing Potential with TechFellows",
     "testimonial": "Anytime we've had an issue or question, their team has been quick and professional in their responses. It's been a complete pleasure working with them"
-  },
-  {
-    "name": "Mark Johnson",
-    "jobTitle": "Data Analyst",
-    "photo": "/testimonials/persona3.png",
-    "headline": "TechFellows: My Trusty Companion in Professional Success",
-    "testimonial": "I highly recommend this to my colleagues. It is very useful."
-  },
-  {
-    "name": "Emily Clarke",
-    "jobTitle": "UI/UX Designer",
-    "photo": "/testimonials/persona4.png",
-    "headline": "Reliability Redefined!",
-    "testimonial": "This product has intelligently addressed some of the biggest challenges in our workflow. We can't imagine our workdays without it anymore."
-  },
-  {
-    "name": "Robert Taylor",
-    "jobTitle": "DevOps Engineer",
-    "photo": "/testimonials/persona5.png",
-    "testimonial": "From a DevOps perspective, this product is well-architected and easy to manage."
-  },
-  {
-    "name": "Oliver Brown",
-    "jobTitle": "Quality Assurance",
-    "photo": "/testimonials/persona6.png",
-    "headline": "Value for Money!",
-    "testimonial": "The features and capabilities we've gained for the price we pay is simply unmatched. It's the best investment we've made for our business this year."
-  },
-  {
-    "name": "Sophia Wilson",
-    "jobTitle": "Business Analyst",
-    "photo": "/testimonials/persona7.png",
-    "testimonial": "This product has significantly enhanced our business processes. Very impressive!"
   }
 ]
