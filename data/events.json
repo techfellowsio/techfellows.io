@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "title": "Techfellows Meetup #1: Developer Advocacy",
+    "title": "TechFellows Meetup #1: Developer Advocacy",
     "description": "What is a magic formula for a happy Engineering team?",
     "year": 2022,
     "month": 11,
@@ -13,7 +13,7 @@
   },
   {
     "id": "2",
-    "title": "Techfellows Meetup #2: High Performing Teams",
+    "title": "TechFellows Meetup #2: High Performing Teams",
     "description": "How to build happy & high performing engineering teams?",
     "year": 2023,
     "month": 2,
@@ -25,7 +25,7 @@
   },
   {
     "id": "3",
-    "title": "Techfellows Meetup #3: Time to rewrite or refactor?",
+    "title": "TechFellows Meetup #3: Time to rewrite or refactor?",
     "description": "Is it always a good idea to rewrite or refactor your code?",
     "year": 2023,
     "month": 4,
@@ -37,7 +37,7 @@
   },
   {
     "id": "4",
-    "title": "Techfellows: Engineering metrics - Delivering features while having fun",
+    "title": "TechFellows: Engineering metrics - Delivering features while having fun",
     "description": "What is the secret sauce of efficient and happy engineering teams and how do you know if you are part of one of them?",
     "year": 2023,
     "month": 9,

@@ -26,7 +26,7 @@
     <template #header>
       <BaseSectionHeader
         :badge="{ title: 'What connects us?' }"
-        title="Exploring the Identity of Techfellows"
+        title="Exploring the Identity of TechFellows"
       >
         We are a community of Tech Founders, CTOs, Engineering Directors based
         across Slovakia, Czechia and Poland. We exist to connect and knowledge
