@@ -1,15 +1,19 @@
 @layer components {
   .section {
-    @apply rounded-t-app lg:rounded-t-app-section pt-16 pb-32 -mt-16 xl:pt-32 xl:pb-48 xl:-mt-16 bg-white;
+    @apply rounded-t-app bg-white pb-32 pt-16  lg:rounded-t-app-section xl:-mt-16 xl:pb-48 xl:pt-32;
 
     .scrollSpyHook {
-      @apply bg-transparent text-transparent text-white -mt-[7em] absolute;
+      @apply absolute -mt-[7em] bg-transparent text-transparent text-white;
+    }
+
+    &-offset {
+      @apply pt-32;
     }
 
     &-dark {
       @apply bg-brand-dark;
       h2 {
-        @apply text-white
+        @apply text-white;
       }
     }
 
@@ -19,7 +23,6 @@
 
     &-gray {
       @apply bg-brand-gray;
-
     }
 
     &-white {

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="grid justify-center xl:block">
-      <ul class="mx-4 flex flex-col flex-wrap justify-center xl:flex-row">
+      <ul class="mx-4 flex flex-row flex-wrap justify-center">
         <template
           v-for="number in numbers"
           :key="[number.number, number.description].join('')"

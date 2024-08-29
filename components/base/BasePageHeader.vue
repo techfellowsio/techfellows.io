@@ -3,6 +3,7 @@
     <div
       class="fixed top-0 z-50 min-h-16 w-full items-center bg-white bg-opacity-90 backdrop-blur-sm"
     >
+      <!-- IMPORTANT! if you disable this notification, dont forget to remove the class "section-offset" from BaseSection  -->
       <BaseHeroNotification />
 
       <div class="container relative">

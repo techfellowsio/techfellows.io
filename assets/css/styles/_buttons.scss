@@ -1,9 +1,9 @@
 @layer base {
   .button {
-    @apply text-sm min-w-48 px-6 py-3 lg:px-8 lg:py-4 transition-all hover:drop-shadow-sm rounded-full inline-flex justify-center;
+    @apply inline-flex min-w-40 justify-center rounded-full px-6 py-3 text-sm transition-all hover:drop-shadow-sm lg:px-8 lg:py-4;
 
     &-sm {
-      @apply text-xs min-w-0 whitespace-nowrap px-4 py-2
+      @apply min-w-0 whitespace-nowrap px-4 py-2 text-xs;
     }
 
     &-primary {
@@ -19,7 +19,7 @@
     }
 
     &-outline {
-      @apply bg-opacity-5 hover:bg-opacity-35 border
+      @apply border bg-opacity-5 hover:bg-opacity-35;
     }
   }
 }
