@@ -1,5 +1,6 @@
 <template>
-  <div class="section section-offset">
+  <div class="section">
+    <!-- <div class="section section-offset"> -->
     <div
       class="scrollSpyHook"
       :id="scrollSpyName"
