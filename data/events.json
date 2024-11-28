@@ -82,5 +82,17 @@
     "minute": 0,
     "image": "/events/techfellows-meetup-7-beyond-the-grind-a-journey-from-hustle-to-harmony.png",
     "url": "https://www.youtube.com/watch?v=2LK7rmsHy9w"
+  },
+  {
+    "id": "8",
+    "title": "TechFellows: 🎄Pre-Christmas Brews 🍻",
+    "description": "Network at a pre-Christmas hangout with beers! 🍻",
+    "year": 2024,
+    "month": 11,
+    "day": 26,
+    "hour": 18,
+    "minute": 0,
+    "image": "/events/techfellows-beer.jpg",
+    "url": "https://lu.ma/m2lu01jr?tk=yJPvJX"
   }
 ]
