@@ -93,6 +93,18 @@
     "hour": 18,
     "minute": 0,
     "image": "/events/techfellows-beer.jpg",
-    "url": "https://lu.ma/m2lu01jr?tk=yJPvJX"
+    "url": ""
+  },
+  {
+    "id": "9",
+    "title": "TechFellows Meetup #8 Founder vs. Manager Led Company",
+    "description": "Join us for an experience-rich panel discussion exploring the nuances between founder-led and manager-led companies.",
+    "year": 2025,
+    "month": 4,
+    "day": 24,
+    "hour": 18,
+    "minute": 0,
+    "image": "/events/techfellows-meetup-8-founder-vs-manager-led-company.png",
+    "url": "https://lu.ma/0e0n3cy9"
   }
 ]
