@@ -42,8 +42,8 @@
             class="h-32 w-32"
           />
           <p class="text-small space-y-4 text-gray-500">
-            TechFellows NGO at Slovakia bank account. Your contribution helps us
-            tremendously in our mission to support the tech community.
+            Bank account for TechFellows NGO at Slovakia. Your contribution
+            helps us tremendously in our mission to support the tech community.
           </p>
         </div>
       </div>
