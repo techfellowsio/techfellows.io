@@ -1,12 +1,21 @@
 @layer base {
-
   body {
-    @apply text-lg text-brand-text ;
+    @apply text-lg text-brand-text;
   }
 
-  h1, h2, h3, h4, h5, h6,
-  .h1, .h2, .h3, .h4, .h5, .h6 {
-    @apply text-brand-dark font-semibold mb-[.8em] text-balance;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    @apply mb-[.8em] text-balance font-semibold text-brand-dark;
   }
 
   p {
@@ -17,23 +26,32 @@
     @apply text-lg;
   }
 
-  h1, .h1 {
-    @apply text-6xl leading-tight
+  h1,
+  .h1 {
+    @apply text-6xl leading-tight;
   }
 
-  h2, .h2 {
-    @apply text-5xl leading-tight
+  h2,
+  .h2 {
+    @apply text-5xl leading-tight;
   }
 
-  h3, .h3 {
-    @apply text-4xl leading-tight
+  h3,
+  .h3 {
+    @apply text-4xl leading-tight;
   }
 
-  h4, .h4 {
-    @apply text-3xl leading-tight
+  h4,
+  .h4 {
+    @apply text-3xl leading-tight;
   }
 
-  h5, .h5 {
-    @apply text-2xl leading-tight
+  h5,
+  .h5 {
+    @apply text-2xl leading-tight;
+  }
+
+  .text-small {
+    @apply text-sm;
   }
 }

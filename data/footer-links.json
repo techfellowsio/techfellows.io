@@ -1,14 +1,6 @@
 [
   {
     "name": "Quick Menu",
-    "links": [
-
-    ]
-  },
-  {
-    "name": "Support us",
-    "links": [
-
-    ]
+    "links": [{ "url": "https://www.seznam.cz/", "name": "seznam" }]
   }
 ]
