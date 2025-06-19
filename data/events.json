@@ -106,5 +106,17 @@
     "minute": 0,
     "image": "/events/techfellows-meetup-8-founder-vs-manager-led-company.png",
     "url": "https://lu.ma/0e0n3cy9"
+  },
+  {
+    "id": "9",
+    "title": "TechFellows Breakfast Club #3 🍳",
+    "description": "​Join us for a TechFellows Breakfast, where good food meets great conversations.",
+    "year": 2025,
+    "month": 6,
+    "day": 13,
+    "hour": 9,
+    "minute": 0,
+    "image": "/events/techfellows-breakfast-small.jpeg",
+    "url": "https://lu.ma/87orjdhl"
   }
 ]
