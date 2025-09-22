@@ -117,6 +117,18 @@
     "hour": 9,
     "minute": 0,
     "image": "/events/techfellows-breakfast-small-2.jpeg",
-    "url": "https://lu.ma/87orjdhl"
+    "url": ""
+  },
+  {
+    "id": "10",
+    "title": "TechFellows Meetup #9 AI for SW Engineers",
+    "description": "​Join us for a panel discussion about AI for software engineers: From hype to hands-on",
+    "year": 2025,
+    "month": 10,
+    "day": 7,
+    "hour": 18,
+    "minute": 0,
+    "image": "/logo-banner.jpeg",
+    "url": "https://luma.com/d2dgwh9h?tk=k1xaLn"
   }
 ]
