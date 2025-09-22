@@ -2,7 +2,7 @@
   <NuxtLink
     :to="url"
     :title="title + ' ' + description"
-    class="group relative overflow-hidden rounded-app-sm hover:z-10 hover:overflow-visible"
+    class="group relative max-h-96 overflow-hidden rounded-app-sm hover:z-10 hover:overflow-hidden"
     target="_blank"
   >
     <nuxt-img
