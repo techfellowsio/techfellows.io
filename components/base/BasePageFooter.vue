@@ -61,7 +61,7 @@
       </div>
     </div>
     <p class="mt-4 border-t border-gray-200 pt-4 text-center text-sm">
-      2024 © TechFellows All Right Reserved
+      2026 © TechFellows All Rights Reserved
     </p>
   </BaseSection>
 </template>
