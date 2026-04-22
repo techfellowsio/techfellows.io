@@ -108,7 +108,7 @@
     "url": "https://www.youtube.com/watch?v=5AumDZHkUw0"
   },
   {
-    "id": "9",
+    "id": "10",
     "title": "TechFellows Breakfast Club #3 🍳",
     "description": "Join us for a TechFellows Breakfast, where good food meets great conversations.",
     "year": 2025,
@@ -120,7 +120,7 @@
     "url": ""
   },
   {
-    "id": "10",
+    "id": "11",
     "title": "TechFellows Meetup #9 AI for SW Engineers & Leaders - Boost Productivity, Avoid Pitfalls?",
     "description": "Join us for a panel discussion about AI for software engineers: From hype to hands-on",
     "year": 2025,
@@ -132,7 +132,7 @@
     "url": "https://www.youtube.com/watch?v=W1moNIyY3P0"
   },
   {
-    "id": "11",
+    "id": "12",
     "title": "TechFellows Breakfast Club #4 Xmas edition 🎄🍳",
     "description": "Join us for a TechFellows Breakfast, where good food meets great conversations.",
     "year": 2025,
@@ -142,5 +142,17 @@
     "minute": 0,
     "image": "/events/techfellows-breakfast.jpeg",
     "url": "https://luma.com/un45f372"
+  },
+  {
+    "id": "13",
+    "title": "TechFellows Breakfast Club #5 🍳",
+    "description": "Join us for a TechFellows Breakfast, where good food meets great conversations.",
+    "year": 2026,
+    "month": 4,
+    "day": 24,
+    "hour": 9,
+    "minute": 0,
+    "image": "/events/techfellows-breakfast.jpeg",
+    "url": "https://luma.com/eu1vfwrm"
   }
 ]
