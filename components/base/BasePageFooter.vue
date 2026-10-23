@@ -47,6 +47,9 @@
             the tech community.
           </p>
         </div>
+        <p v-if="iban" class="mt-4 text-sm text-gray-500">
+          IBAN: <span class="whitespace-nowrap">{{ iban.value }}</span>
+        </p>
       </div>
       <div>
         <p class="font-bold text-brand-dark">Contacts</p>
@@ -84,4 +87,5 @@ const organization = useOrganizationStore();
 
 const phone = contactInfo.getInfoByType("phone");
 const email = contactInfo.getInfoByType("email");
+const iban = contactInfo.getInfoByType("iban");
 </script>

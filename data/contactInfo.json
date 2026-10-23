@@ -6,5 +6,9 @@
   {
     "type": "Email",
     "value": "info@techfellows.io"
+  },
+  {
+    "type": "IBAN",
+    "value": "SK56 0900 0000 0052 2883 1719"
   }
 ]
