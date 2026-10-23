@@ -48,9 +48,9 @@
           </p>
         </div>
       </div>
-      <div v-if="phone || email">
+      <div>
         <p class="font-bold text-brand-dark">Contacts</p>
-        <ul class="">
+        <ul v-if="phone || email">
           <li v-if="phone">
             <a :href="`tel:${phone.value}`">{{ phone.value }}</a>
           </li>
@@ -58,6 +58,12 @@
             <a :href="`mailto:${email.value}`">{{ email.value }}</a>
           </li>
         </ul>
+        <address class="mt-4 text-sm not-italic text-gray-500">
+          <p class="font-bold">{{ organization.organization.name }}</p>
+          <p>{{ organization.organization.legalForm }}</p>
+          <p>ID (IČO): {{ organization.organization.registrationNumber }}</p>
+          <p>{{ organization.formattedAddress }}</p>
+        </address>
       </div>
     </div>
     <p class="mt-4 border-t border-gray-200 pt-4 text-center text-sm">
@@ -69,10 +75,12 @@
 import { useSocialMediaStore } from "~/stores/socialMediaStore";
 import { useFooterLinksStore } from "~/stores/footerLinksStore";
 import { useContactInfoStore } from "~/stores/contactInfoStore";
+import { useOrganizationStore } from "~/stores/organizationStore";
 
 const socialMediaProfiles = useSocialMediaStore();
 const footerMenus = useFooterLinksStore();
 const contactInfo = useContactInfoStore();
+const organization = useOrganizationStore();
 
 const phone = contactInfo.getInfoByType("phone");
 const email = contactInfo.getInfoByType("email");
